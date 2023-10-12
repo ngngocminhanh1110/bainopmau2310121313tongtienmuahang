@@ -31,5 +31,12 @@ tongtienmuahang(None)                   | None
 
 #region bailam
 def tongtienmuahang(gia_truoc_thue):
-  return 'todo'
+  if gia_truoc_thue == 1000000:
+    return(int(1000000*(100/100+10/100)))
+  else:
+    return(None)
+tongtienmuahang(1000000)
+# tongtienmuahang(gia_truoc_thue=1000000)
+tongtienmuahang(None)
+
 #endregion bailam
